@@ -105,7 +105,7 @@ const servicios = [
   { rubro: "Instalación de cámaras de seguridad", nombre: "Lautaro Misericordia", telefono: "3435192354", ubicacion: "Parana 16", horarios: "Lunes a viernes de 15 a 22 hs", activo: true },
   { rubro: "Instalación de porteros eléctricos", nombre: "Lautaro Misericordia", telefono: "3435192354", ubicacion: "", horarios: "Lunes a viernes de 15 a 22 hs", activo: true },
   { rubro: "Jardinero y mantenimiento de parques", nombre: "", telefono: "", ubicacion: "", horarios: "", activo: false },
-  { rubro: "Limpieza de tanques de agua", nombre: "", telefono: "", ubicacion: "", horarios: "", activo: false },
+  { rubro: "Limpieza de tanques de agua", nombre: "Diego Tanques de Agua", telefono: "3434471298", ubicacion: "Crespo y Churruarin", horarios: "Lunes a viernes de 8 a 16 hs ", activo: true},
   { rubro: "Limpieza", nombre: "Esteban Marichal Oficial", telefono: "3434168687", ubicacion: "", horarios: "", activo: true },
   { rubro: "Mantenimiento de piletas", nombre: "Lagoon Picinas", telefono: "3425116604", ubicacion: "Parque Ind. Crespo", horarios: "Lunes a viernes de 8 a 16 hs ", activo: true },
   { rubro: "Montaje de muebles de cocina", nombre: "IDL MUEBLES A MEDIDA", telefono: "3434637000", ubicacion: "O`Brien 1150", horarios: "Lunes a viernes de 8 a 20 hs", activo: true ,foto:"../imagen/chiquito.jpg" },
