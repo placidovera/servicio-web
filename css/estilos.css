@@ -13,6 +13,8 @@
  --color-linea: rgb(205, 236, 214);                  
  --color-swich-base: rgb(201,202,206);
  --color-swich-circulo: rgb(241,241,241);
+ --color-titulosh2: #073c64;
+
 }
 @import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
 *{
@@ -45,6 +47,7 @@
 --color-swich-base: rgb(39,205,64);
 --color-swich-circulo: rgb(255,255,255);
 --color-body: #1A2B4C;
+--color-titulosh2: #E8eef0;
 }
 body{
   width: 100%;
@@ -63,6 +66,7 @@ body{
   background-color: var(--color-barra-lateral);
   transition: width 0.5s ease ,background-color 3s ease ;
   overflow: hidden;
+  z-index: 2;
 }
 /*barra lateral navegacion */
 .barra-lateral .navegacion {
@@ -396,7 +400,7 @@ h2{
   padding: 3%;
   font-family: 'Rajdhani', sans-serif;
   font-size: 4rem;
-  color:var(--color-menu-tarjetas);
+  color:var(--color-titulosh2);
   text-shadow:0.5px 0.5px 0 #eceff1,1px 1px 2px rgba(0, 172, 193, 0.3);
   letter-spacing: 1px;
   font-weight: 600;
@@ -500,7 +504,7 @@ ul {
   transform: translateX(-240px);
   opacity: 1;
   transition: transform 1s ease-out, opacity 1s ease-out;
-  background-image: url(./imagen/autog.png);
+  background-image: url(../imagen/autog.png);
 }
 
 /*pagina servicios grid*/
@@ -539,6 +543,7 @@ margin-top: 100px;
   padding: 30px;
   position: relative;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 .titulo {
@@ -571,7 +576,7 @@ margin-top: 100px;
 
 .numeros {
   position: absolute;
-  bottom: 30px;
+  bottom: 20px;
   left: 30px;
   right: 30px;
   display: flex;
@@ -582,7 +587,6 @@ margin-top: 100px;
   margin: 5px 0;         
   font-size: 2.5rem;      
   color: #333;          
-  
 }
 .tarjeta-persona .info-servicio span {
   display: block;        
@@ -590,6 +594,7 @@ margin-top: 100px;
   font-size: 2.5rem;      
   color:#333;           
 }
+/* <body class="cloudy">en paginaservicioActivo0.html */
 .cloudy {
  background-image: url(../imagen/v915-wit-011.jpg);
  background-size: cover; 
@@ -673,7 +678,7 @@ margin-top: 100px;
   width: 1;
 }
 .barra-lateral .nombre-pagina span.oculto {
-    opacity: 1;
+  opacity: 1;
 }
 .barra-lateral span {
   opacity: 0;
@@ -689,7 +694,7 @@ margin-top: 100px;
  height: 450px;
 }
 .foto-container {
- top: 80px;
+ top: 90px;
  right: 90px;
 }
 .info-servicio {
@@ -702,5 +707,8 @@ margin-top: 100px;
 }
 .numeros {
   flex-direction: column;
+}
+.titulo {
+ font-size: 2rem; 
 }
 }
