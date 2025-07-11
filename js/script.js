@@ -100,7 +100,7 @@ const servicios = [
   { rubro: "Desinfección y control de plagas", nombre: "", telefono: "", ubicacion: "", horarios: "", activo: false },
   { rubro: "Electricista domiciliario", nombre: "Luisi z", telefono: "3434696445", ubicacion: "", horarios: "", activo: true },
   { rubro: "Gasista", nombre: "Carlos Gas", telefono: "3434600138", ubicacion: "", horarios: "", activo: true },
-  { rubro: "Herrero", nombre: "La Fabrica Herreria", telefono: "3436128805", ubicacion: "", horarios: "", activo: true ,foto:"../imagen/lafabrica.jpg" },
+  { rubro: "Herrero", nombre: "La Fabrica Herreria", telefono: "3436128805", ubicacion: "Banda Oriental 407", horarios: "", activo: true ,foto:"../imagen/lafabrica.jpg" },
   { rubro: "Instalación de aires acondicionados", nombre: "Frioservicios", telefono: "3435196962", ubicacion: "Félix de azara 170", horarios: "", activo: true,foto:"../imagen/anibal.jpg" },
   { rubro: "Instalación de cámaras de seguridad", nombre: "Lautaro Misericordia", telefono: "3435192354", ubicacion: "Parana 16", horarios: "Lunes a viernes de 15 a 22 hs", activo: true },
   { rubro: "Instalación de porteros eléctricos", nombre: "Lautaro Misericordia", telefono: "3435192354", ubicacion: "", horarios: "Lunes a viernes de 15 a 22 hs", activo: true },
